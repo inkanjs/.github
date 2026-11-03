@@ -1,0 +1,22 @@
+name: Idea
+description: Something inkan could do, or do better.
+labels: ["idea"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What you're trying to do
+      description: The problem first, the solution second. What gets in your way today?
+    validations:
+      required: true
+  - type: textarea
+    id: shape
+    attributes:
+      label: How it could look
+      description: Code is welcome, even rough.
+      render: ts
+  - type: dropdown
+    id: help
+    attributes:
+      label: Would you like to build it?
+      options: ["Yes", "Maybe, with some help", "No"]
