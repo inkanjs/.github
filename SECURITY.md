@@ -12,7 +12,7 @@ read it.
 
 It helps a lot if you include:
 
-- the package and version (`@vxnsin/inkan@0.8.1`, `@inkanjs/auth@0.2.0`, …)
+- the package and version (`@inkanjs/inkan@0.9.2`, `@inkanjs/auth@0.2.2`, …)
 - what an attacker can do, and what they need for it
 - the smallest code or request that shows it
 - whether it is already public somewhere
@@ -32,7 +32,7 @@ older minors don't get backports; upgrading within the same major is meant to be
 
 | package | supported |
 | --- | --- |
-| `@vxnsin/inkan` | 0.8.x |
+| `@inkanjs/inkan` | 0.9.x |
 | `@inkanjs/*` middleware | the latest release of each |
 | `@inkanjs/*` integrations | the latest release of each |
 

@@ -10,7 +10,7 @@ out, writes OpenAPI, serves the docs, runs your examples as tests and hands your
 typed client. The core has no dependencies.
 
 ```ts
-import { inkan, t } from "@vxnsin/inkan";
+import { inkan, t } from "@inkanjs/inkan";
 
 inkan()
   .get("/hello/:name", { params: t.object({ name: t.string() }) }, ({ params }) => ({ hello: params.name }))
@@ -34,8 +34,8 @@ Everything that plugs into inkan, official or not, is listed on
 
 ```sh
 npm create inkan@latest my-api               # a project: store, auth, frontend, tests, CI
-npx @vxnsin/inkan examples                   # six explained projects to start from
-npx @vxnsin/inkan create plugin inkan-quota  # a plugin package with tests, ready to publish
+npx @inkanjs/inkan examples                   # six explained projects to start from
+npx @inkanjs/inkan create plugin inkan-quota  # a plugin package with tests, ready to publish
 ```
 
 Questions, bugs and ideas go into [issues](https://github.com/inkanjs/inkan/issues), and pull

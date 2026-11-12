@@ -32,7 +32,7 @@ with a message.
   what it does and for the ways it can go wrong.
 - **No new runtime dependencies** in the core. It has none, and that's on purpose.
 - **No `eval` or `new Function`.**
-- **The public API.** If your change touches what `@vxnsin/inkan` exports, run
+- **The public API.** If your change touches what `@inkanjs/inkan` exports, run
   `npm run api:update` and commit the updated `api/inkan.d.ts.txt`; the test fails until you
   do. Stable API follows [the stability policy](https://inkan-dev.vercel.app/docs/stability): renames keep the old name
   as a deprecated alias.
@@ -46,7 +46,7 @@ runs the full comparison on GitHub.
 
 ## Plugins
 
-You don't need to send a plugin here to share it. Run `npx @vxnsin/inkan create plugin
+You don't need to send a plugin here to share it. Run `npx @inkanjs/inkan create plugin
 <name>`, publish it on npm with the keyword `inkan-plugin`, and it shows up on
 [Hanko](https://inkan-dev.vercel.app/hanko) by itself.
 
